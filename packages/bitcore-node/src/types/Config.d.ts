@@ -6,6 +6,7 @@ export interface ConfigType {
   dbPort: string;
   dbUser: string;
   dbPass: string;
+  dbReplicaSet: string;
   numWorkers: number;
 
   chains: {
